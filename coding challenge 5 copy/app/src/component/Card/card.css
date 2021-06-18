@@ -1,0 +1,53 @@
+.photo {
+	height: 300px !important;
+}
+
+* {
+	box-sizing: border-box;
+}
+
+strong {
+	color: white;
+}
+
+.container {
+	position: relative;
+	max-width: 100%;
+	margin: 10px auto;
+	border-radius: 10px;
+}
+
+.container img {
+	vertical-align: middle;
+	border-radius: 10px;
+}
+
+.container .content {
+	position: absolute;
+	bottom: 0;
+	background: rgb(0, 0, 0); /* Fallback color */
+	background: rgba(0, 0, 0, 0.5); /* Black background with 0.5 opacity */
+	border-radius: 10px;
+
+	color: white;
+	height: 100%;
+	width: 93%;
+	padding: 30px;
+}
+
+/* .container {
+	margin: 20px !important;
+	height: 100% !important;
+}
+
+.card-internal {
+	color: white !important;
+	background-size: cover;
+	padding: 70% !important;
+}
+
+.custom-card {
+	z-index: 20 !important;
+	margin: 20px !important;
+	padding: 10px !important;
+} */
